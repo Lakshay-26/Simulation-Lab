@@ -12,6 +12,8 @@ services:
         generateValue: true
       - key: NODE_ENV
         value: production
+      - key: NODE_VERSION
+        value: 22.12.0
 
   - type: web
     name: security-sim-frontend
@@ -24,3 +26,5 @@ services:
           name: security-sim-api
           type: web
           property: host
+      - key: NODE_VERSION
+        value: 22.12.0
