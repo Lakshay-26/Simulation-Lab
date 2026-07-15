@@ -14,11 +14,6 @@ services:
         value: production
       - key: NODE_VERSION
         value: 22.12.0
-      - key: CLIENT_URL
-        fromService:
-          name: security-sim-frontend
-          type: web
-          property: url
 
   - type: web
     name: security-sim-frontend
