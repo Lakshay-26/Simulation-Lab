@@ -27,7 +27,7 @@ const allowedOrigins = [
 
 app.use(cors({
   origin: (origin, callback) => {
-    if (!origin || allowedOrigins.includes(origin) || origin.endsWith('.onrender.com')) {
+    if (!origin || allowedOrigins.includes(origin) || origin.endsWith('.onrender.com') || origin.endsWith('.github.io')) {
       callback(null, true);
     } else {
       callback(new Error('Not allowed by CORS'));
