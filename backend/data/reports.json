@@ -1,0 +1,86 @@
+[
+  {
+    "id": "mrlnnrln1y99u46",
+    "createdAt": "2026-07-15T05:44:22.907Z",
+    "updatedAt": "2026-07-15T05:44:23.012Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "final",
+    "title": "FINAL SECURITY AUDIT REPORT",
+    "summary": "This Final Security Report aggregates all Red Team exploits and Blue Team defense controls performed by Lakshay. It provides an overview of target security posture and mitigations.",
+    "studentName": "Lakshay",
+    "findings": [
+      {
+        "title": "Blue Team Control: parameterized queries",
+        "severity": "info",
+        "score": null,
+        "description": "Mitigation control active in application router."
+      },
+      {
+        "title": "Blue Team Control: input validation",
+        "severity": "info",
+        "score": null,
+        "description": "Mitigation control active in application router."
+      },
+      {
+        "title": "Blue Team Control: output encoding",
+        "severity": "info",
+        "score": null,
+        "description": "Mitigation control active in application router."
+      },
+      {
+        "title": "Blue Team Control: rate limiting",
+        "severity": "info",
+        "score": null,
+        "description": "Mitigation control active in application router."
+      },
+      {
+        "title": "Blue Team Control: csrf protection",
+        "severity": "info",
+        "score": null,
+        "description": "Mitigation control active in application router."
+      },
+      {
+        "title": "Blue Team Control: authorization",
+        "severity": "info",
+        "score": null,
+        "description": "Mitigation control active in application router."
+      },
+      {
+        "title": "Blue Team Control: helmet security",
+        "severity": "info",
+        "score": null,
+        "description": "Mitigation control active in application router."
+      },
+      {
+        "title": "Blue Team Control: secure cookies",
+        "severity": "info",
+        "score": null,
+        "description": "Mitigation control active in application router."
+      },
+      {
+        "title": "Blue Team Control: session security",
+        "severity": "info",
+        "score": null,
+        "description": "Mitigation control active in application router."
+      },
+      {
+        "title": "Blue Team Control: password policies",
+        "severity": "info",
+        "score": null,
+        "description": "Mitigation control active in application router."
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Maintain Multi-layered Defense-in-Depth",
+        "description": "Ensure application filters are configured at the routing layer, controller validation layer, database query layer, and response header layer."
+      }
+    ],
+    "chartData": {
+      "activeDefenses": 10,
+      "findingsCount": 10
+    },
+    "pdfPath": "/uploads/reports/report_mrlnnrln1y99u46_1784094262908.pdf",
+    "isDeleted": false
+  }
+]

@@ -1,0 +1,364 @@
+[
+  {
+    "id": "mrlnh7rzkts6i9p",
+    "createdAt": "2026-07-15T05:39:17.279Z",
+    "updatedAt": "2026-07-15T05:39:17.279Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "profile",
+    "action": "Account registered",
+    "module": "Auth",
+    "severity": "info",
+    "details": {
+      "username": "Lakshay",
+      "email": "ahlawatl69@gmail.com"
+    }
+  },
+  {
+    "id": "mrlnifwoi43terv",
+    "createdAt": "2026-07-15T05:40:14.472Z",
+    "updatedAt": "2026-07-15T05:40:14.472Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "profile",
+    "action": "Email address verified",
+    "module": "Auth",
+    "severity": "info"
+  },
+  {
+    "id": "mrlnjjbpqn42w8v",
+    "createdAt": "2026-07-15T05:41:05.557Z",
+    "updatedAt": "2026-07-15T05:41:05.557Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "login",
+    "action": "User logged in",
+    "module": "Auth",
+    "severity": "info",
+    "details": {
+      "ip": "::1",
+      "rememberMe": true
+    }
+  },
+  {
+    "id": "mrlnl6iy1n8oc0p",
+    "createdAt": "2026-07-15T05:42:22.282Z",
+    "updatedAt": "2026-07-15T05:42:22.282Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "simulation",
+    "action": "Executed Red Team exploit: SQLi",
+    "module": "Red Team",
+    "severity": "critical",
+    "details": {
+      "vulnType": "SQLi",
+      "payload": "' OR '1'='1",
+      "success": true,
+      "outputLog": [
+        "[*] Target: http://192.168.1.105/api/vuln/sqli",
+        "[*] Sending payload: ' OR '1'='1",
+        "[+] Injecting exploit into vulnerable socket...",
+        "[+] Command executed successfully! Response received.",
+        "[!] System compromised. Sensitive response leaked."
+      ],
+      "score": 9.8
+    }
+  },
+  {
+    "id": "mrlnli3niuwb9rx",
+    "createdAt": "2026-07-15T05:42:37.283Z",
+    "updatedAt": "2026-07-15T05:42:37.283Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "scan",
+    "action": "Simulated Information Gathering scan",
+    "module": "Reconnaissance",
+    "severity": "low",
+    "details": {
+      "scanType": "info_gathering",
+      "output": [
+        "[*] Starting Information Gathering simulation...",
+        "[*] Resolving target hostname...",
+        "[+] Target IP: 192.168.1.105",
+        "[+] NS Records: ns1.target.local, ns2.target.local",
+        "[+] MX Records: mail.target.local (Priority: 10)",
+        "[*] Querying WHOIS database...",
+        "[+] Registrar: SafeDomain Inc.",
+        "[+] Organization: Simulated Corp",
+        "[+] Admin Email: security@target.local",
+        "[+] Simulation complete. Data logged."
+      ]
+    }
+  },
+  {
+    "id": "mrlnls5ezz7lc3f",
+    "createdAt": "2026-07-15T05:42:50.306Z",
+    "updatedAt": "2026-07-15T05:42:50.306Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "defense",
+    "action": "Activated defensive control: parameterized queries",
+    "module": "Blue Team",
+    "severity": "low",
+    "details": {
+      "defenseKey": "parameterized_queries",
+      "active": true
+    }
+  },
+  {
+    "id": "mrlnluwfkqz79f8",
+    "createdAt": "2026-07-15T05:42:53.871Z",
+    "updatedAt": "2026-07-15T05:42:53.871Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "defense",
+    "action": "Activated defensive control: input validation",
+    "module": "Blue Team",
+    "severity": "low",
+    "details": {
+      "defenseKey": "input_validation",
+      "active": true
+    }
+  },
+  {
+    "id": "mrlnlzy5vzvruo2",
+    "createdAt": "2026-07-15T05:43:00.413Z",
+    "updatedAt": "2026-07-15T05:43:00.413Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "defense",
+    "action": "Activated defensive control: output encoding",
+    "module": "Blue Team",
+    "severity": "low",
+    "details": {
+      "defenseKey": "output_encoding",
+      "active": true
+    }
+  },
+  {
+    "id": "mrlnm1mtukes17j",
+    "createdAt": "2026-07-15T05:43:02.597Z",
+    "updatedAt": "2026-07-15T05:43:02.597Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "defense",
+    "action": "Activated defensive control: rate limiting",
+    "module": "Blue Team",
+    "severity": "low",
+    "details": {
+      "defenseKey": "rate_limiting",
+      "active": true
+    }
+  },
+  {
+    "id": "mrlnm32thzg6g68",
+    "createdAt": "2026-07-15T05:43:04.469Z",
+    "updatedAt": "2026-07-15T05:43:04.469Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "defense",
+    "action": "Activated defensive control: csrf protection",
+    "module": "Blue Team",
+    "severity": "low",
+    "details": {
+      "defenseKey": "csrf_protection",
+      "active": true
+    }
+  },
+  {
+    "id": "mrlnm4e51ezo2i6",
+    "createdAt": "2026-07-15T05:43:06.173Z",
+    "updatedAt": "2026-07-15T05:43:06.173Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "defense",
+    "action": "Activated defensive control: authorization",
+    "module": "Blue Team",
+    "severity": "low",
+    "details": {
+      "defenseKey": "authorization",
+      "active": true
+    }
+  },
+  {
+    "id": "mrlnm5lret9cawk",
+    "createdAt": "2026-07-15T05:43:07.743Z",
+    "updatedAt": "2026-07-15T05:43:07.743Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "defense",
+    "action": "Activated defensive control: helmet security",
+    "module": "Blue Team",
+    "severity": "low",
+    "details": {
+      "defenseKey": "helmet_security",
+      "active": true
+    }
+  },
+  {
+    "id": "mrlnm6ypc3ad45m",
+    "createdAt": "2026-07-15T05:43:09.505Z",
+    "updatedAt": "2026-07-15T05:43:09.505Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "defense",
+    "action": "Activated defensive control: secure cookies",
+    "module": "Blue Team",
+    "severity": "low",
+    "details": {
+      "defenseKey": "secure_cookies",
+      "active": true
+    }
+  },
+  {
+    "id": "mrlnm8e3oolr7o8",
+    "createdAt": "2026-07-15T05:43:11.355Z",
+    "updatedAt": "2026-07-15T05:43:11.355Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "defense",
+    "action": "Activated defensive control: session security",
+    "module": "Blue Team",
+    "severity": "low",
+    "details": {
+      "defenseKey": "session_security",
+      "active": true
+    }
+  },
+  {
+    "id": "mrlnma70fp834e2",
+    "createdAt": "2026-07-15T05:43:13.692Z",
+    "updatedAt": "2026-07-15T05:43:13.692Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "defense",
+    "action": "Activated defensive control: password policies",
+    "module": "Blue Team",
+    "severity": "low",
+    "details": {
+      "defenseKey": "password_policies",
+      "active": true
+    }
+  },
+  {
+    "id": "mrlnmquiq8tvdor",
+    "createdAt": "2026-07-15T05:43:35.274Z",
+    "updatedAt": "2026-07-15T05:43:35.274Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "tool",
+    "action": "Analyzed security headers for ravit50.pythonanywhere.com",
+    "module": "Security Tool",
+    "severity": "high",
+    "details": {
+      "url": "https://ravit50.pythonanywhere.com/search",
+      "host": "ravit50.pythonanywhere.com",
+      "score": 0,
+      "grade": "F"
+    }
+  },
+  {
+    "id": "mrlnnc3s0y55h1h",
+    "createdAt": "2026-07-15T05:44:02.824Z",
+    "updatedAt": "2026-07-15T05:44:02.824Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "tool",
+    "action": "Analyzed security headers for ravit50.pythonanywhere.com",
+    "module": "Security Tool",
+    "severity": "high",
+    "details": {
+      "url": "https://ravit50.pythonanywhere.com/search",
+      "host": "ravit50.pythonanywhere.com",
+      "score": 0,
+      "grade": "F"
+    }
+  },
+  {
+    "id": "mrlnnrolnftjz0y",
+    "createdAt": "2026-07-15T05:44:23.013Z",
+    "updatedAt": "2026-07-15T05:44:23.013Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "report",
+    "action": "Generated final report: FINAL SECURITY AUDIT REPORT",
+    "module": "Reports",
+    "severity": "low",
+    "details": {
+      "reportId": "mrlnnrln1y99u46",
+      "type": "final"
+    }
+  },
+  {
+    "id": "mrlntccw13m5awh",
+    "createdAt": "2026-07-15T05:48:43.088Z",
+    "updatedAt": "2026-07-15T05:48:43.088Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "tool",
+    "action": "Analyzed security headers for ravit50.pythonanywhere.com",
+    "module": "Security Tool",
+    "severity": "high",
+    "details": {
+      "url": "https://ravit50.pythonanywhere.com/search",
+      "host": "ravit50.pythonanywhere.com",
+      "score": 0,
+      "grade": "F"
+    }
+  },
+  {
+    "id": "mrlo12ab57ysbe6",
+    "createdAt": "2026-07-15T05:54:43.283Z",
+    "updatedAt": "2026-07-15T05:54:43.283Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "login",
+    "action": "User logged out",
+    "module": "Auth",
+    "severity": "info"
+  },
+  {
+    "id": "mrlo1vumo78tmve",
+    "createdAt": "2026-07-15T05:55:21.598Z",
+    "updatedAt": "2026-07-15T05:55:21.598Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "login",
+    "action": "User logged in",
+    "module": "Auth",
+    "severity": "info",
+    "details": {
+      "ip": "::1",
+      "rememberMe": false
+    }
+  },
+  {
+    "id": "mrlo9zedl0lavtd",
+    "createdAt": "2026-07-15T06:01:39.445Z",
+    "updatedAt": "2026-07-15T06:01:39.445Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "scan",
+    "action": "Simulated Technology Detection scan",
+    "module": "Reconnaissance",
+    "severity": "low",
+    "details": {
+      "scanType": "technology_detection",
+      "output": [
+        "[*] Inspecting response headers and scripts...",
+        "[+] Server: nginx/1.18.0",
+        "[+] X-Powered-By: Express",
+        "[+] Frontend Library: React (Vite)",
+        "[+] Cookie Manager: express-session",
+        "[+] Database: MongoDB (via Mongoose adapter)",
+        "[*] Tech stack analysis finished."
+      ]
+    }
+  },
+  {
+    "id": "mrlociv2yh3bv15",
+    "createdAt": "2026-07-15T06:03:37.982Z",
+    "updatedAt": "2026-07-15T06:03:37.982Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "defense",
+    "action": "Deactivated defensive control: secure cookies",
+    "module": "Blue Team",
+    "severity": "warning",
+    "details": {
+      "defenseKey": "secure_cookies",
+      "active": false
+    }
+  },
+  {
+    "id": "mrlocjm7rqn82ro",
+    "createdAt": "2026-07-15T06:03:38.959Z",
+    "updatedAt": "2026-07-15T06:03:38.959Z",
+    "userId": "mrlnh7rw48wrajx",
+    "type": "defense",
+    "action": "Activated defensive control: secure cookies",
+    "module": "Blue Team",
+    "severity": "low",
+    "details": {
+      "defenseKey": "secure_cookies",
+      "active": true
+    }
+  }
+]

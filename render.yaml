@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: security-sim-api
+    env: node
+    plan: free
+    buildCommand: npm install --prefix backend
+    startCommand: node backend/index.js
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: JWT_SECRET
+        generateValue: true
+      - key: NODE_ENV
+        value: production
+
+  - type: static
+    name: security-sim-frontend
+    env: static
+    plan: free
+    buildCommand: npm install --prefix frontend && npm run build --prefix frontend
+    publishDir: frontend/dist
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          name: security-sim-api
+          type: web
+          property: host

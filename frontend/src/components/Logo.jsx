@@ -1,0 +1,68 @@
+import React from 'react';
+
+export const Logo = ({ size = 32 }) => {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 100 100"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className="filter drop-shadow-[0_0_10px_rgba(59,130,246,0.4)] transition-transform duration-300 hover:scale-105"
+    >
+      <defs>
+        <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#EF4444" />
+          <stop offset="50%" stopColor="#3B82F6" />
+          <stop offset="100%" stopColor="#06B6D4" />
+        </linearGradient>
+      </defs>
+      <path
+        d="M50 5 L90 22 V55 C90 75 73 91 50 95 C27 91 10 75 10 55 V22 L50 5 Z"
+        stroke="url(#shieldGrad)"
+        strokeWidth="6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        fill="#0A0E17"
+        fillOpacity="0.85"
+      />
+      <path
+        d="M50 15 V85 C32 82 20 70 20 55 V25 L50 15 Z"
+        fill="#EF4444"
+        fillOpacity="0.12"
+      />
+      <path
+        d="M32 40 L42 48 L32 56"
+        stroke="#EF4444"
+        strokeWidth="5.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <line x1="44" y1="56" x2="52" y2="56" stroke="#EF4444" strokeWidth="5.5" strokeLinecap="round" />
+      <path
+        d="M50 15 V85 C68 82 80 70 80 55 V25 L50 15 Z"
+        fill="#06B6D4"
+        fillOpacity="0.12"
+      />
+      <path
+        d="M50 35 H66 M50 50 H72 M50 65 H62"
+        stroke="#06B6D4"
+        strokeWidth="3.5"
+        strokeLinecap="round"
+      />
+      <circle cx="66" cy="35" r="4.5" fill="#3B82F6" />
+      <circle cx="72" cy="50" r="4.5" fill="#06B6D4" />
+      <circle cx="62" cy="65" r="4.5" fill="#3B82F6" />
+      <line
+        x1="50"
+        y1="12"
+        x2="50"
+        y2="88"
+        stroke="url(#shieldGrad)"
+        strokeWidth="3"
+        strokeDasharray="5 5"
+      />
+    </svg>
+  );
+};
+export default Logo;

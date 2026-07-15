@@ -1,0 +1,22 @@
+[
+  {
+    "id": "mrlnjjbq0mqivoo",
+    "createdAt": "2026-07-15T05:41:05.558Z",
+    "updatedAt": "2026-07-15T05:41:05.558Z",
+    "userId": "mrlnh7rw48wrajx",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "route": "/auth/login",
+    "method": "POST"
+  },
+  {
+    "id": "mrlo1vumze2uuic",
+    "createdAt": "2026-07-15T05:55:21.598Z",
+    "updatedAt": "2026-07-15T05:55:21.598Z",
+    "userId": "mrlnh7rw48wrajx",
+    "ipAddress": "::1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "route": "/auth/login",
+    "method": "POST"
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "mrlnh7rw48wrajx",
+    "createdAt": "2026-07-15T05:39:17.276Z",
+    "updatedAt": "2026-07-15T06:03:38.958Z",
+    "username": "Lakshay",
+    "email": "ahlawatl69@gmail.com",
+    "password": "$2b$10$OLo7EqlQFegdoba6CIp7su9K/OIxt3cqF6jD5a3WzxxFAmgTH.DNC",
+    "role": "student",
+    "isVerified": true,
+    "verificationToken": "",
+    "activeDefenses": [
+      "parameterized_queries",
+      "input_validation",
+      "output_encoding",
+      "rate_limiting",
+      "csrf_protection",
+      "authorization",
+      "helmet_security",
+      "session_security",
+      "password_policies",
+      "secure_cookies"
+    ]
+  }
+]
