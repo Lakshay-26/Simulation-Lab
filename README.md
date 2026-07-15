@@ -4,14 +4,6 @@ A premium, full-stack cybersecurity simulation sandbox designed to demonstrate t
 
 ---
 
-## 🚀 Live Demo & One-Click Deployment
-This project is pre-configured for a seamless deployment using Render Blueprint.
-1. Push this repository to your GitHub account.
-2. Go to **Render** and click **New -> Blueprint**.
-3. Select your repository, and Render will build, deploy, and automatically link your frontend and backend.
-
----
-
 ## 💎 Core Features
 
 ### ⚔️ Red Team (Attacking Console)
@@ -66,7 +58,6 @@ This project is pre-configured for a seamless deployment using Render Blueprint.
 │   ├── postcss.config.js   # Style processor rules
 │   └── tailwind.config.js  # Theme variables configuration
 ├── package.json            # Unified execution scripts
-├── render.yaml             # Blueprint for Render cloud builds
 └── verify.js               # Pipeline verification script
 ```
 
