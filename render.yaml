@@ -13,12 +13,12 @@ services:
       - key: NODE_ENV
         value: production
 
-  - type: static
+  - type: web
     name: security-sim-frontend
-    env: static
+    runtime: static
     plan: free
     buildCommand: npm install --prefix frontend && npm run build --prefix frontend
-    publishDir: frontend/dist
+    staticPublishPath: frontend/dist
     envVars:
       - key: VITE_API_URL
         fromService:
